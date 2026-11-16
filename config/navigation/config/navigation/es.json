@@ -1,0 +1,16 @@
+{
+ "id": "navigation-es",
+ "language": "es",
+ "menuItems": [
+   {
+     "id": "home",
+     "label": "Inicio",
+     "enabled": true
+   },
+   {
+     "id": "support",
+     "label": "Centro de ayuda",
+     "enabled": true
+   }
+ ]
+}
