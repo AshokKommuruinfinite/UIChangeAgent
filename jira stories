@@ -1,0 +1,50 @@
+STORY 1
+
+MP2027-Member Portal-My Plan Resources-Remove duplicate states from Documents
+
+Currently, the Documents state list contains duplicate entries: Nevada appears twice in English and Spanish, and Iowa appears twice in English. This can cause a state to be listed more than once.
+
+Acceptance Criteria:
+- AC1: Remove duplicate document-NV entries from the English and Spanish state lists.
+- AC2: Remove the duplicate document-IA entry from the English state list.
+- AC3: Keep every other existing state entry unchanged.
+- AC4: Verify each state ID appears no more than once in each updated list.
+
+Existing files:
+MemberPortal/Data/content/MyResources/Documents/en.json
+MemberPortal/Data/content/MyResources/Documents/es.json
+
+
+STORY 2
+
+MP2027-Member Portal-My Messages-Complete Spanish and Chinese vaccination-form content
+
+The My Messages files contain child vaccination-record fields, but some Spanish and Chinese values remain in English. In Spanish, the doctor-address label also repeats the doctor-name text.
+
+Acceptance Criteria:
+- AC1: Translate the vaccination-flow labels and messages in Spanish and Chinese, including child/doctor details, upload instructions, submission confirmation, and upload errors.
+- AC2: Correct the Spanish doctor-address label so it requests an address, not a doctor's name.
+- AC3: Preserve the existing rules: vaccination uploads accept images, and message attachments allow up to three files of 5 MB each.
+- AC4: Keep the English content and all existing JSON keys unchanged.
+
+Existing files:
+MemberPortal/Data/content/MyMessages/en.json
+MemberPortal/Data/content/MyMessages/es.json
+MemberPortal/Data/content/MyMessages/zh.json
+
+
+STORY 3
+
+MP2027-Member Portal-My Health Record-Correct Spanish allergy guidance and print labels
+
+The Spanish allergy content contains a typo and an extra quotation mark in lblDescriptionNonMp. The print heading and generated-date label are still in English.
+
+Acceptance Criteria:
+- AC1: Correct the Spanish lblDescriptionNonMp wording and remove the stray quotation mark.
+- AC2: Provide Spanish translations for lblprintHeading and lblPrintGenerated.
+- AC3: Preserve the allergy emergency guidance and existing Nurse Advice Line phone numbers.
+- AC4: Verify the updated Spanish JSON parses and retains all existing keys.
+
+Existing files:
+MemberPortal/Data/content/MyHealthRecord/Allergies/es.json
+MemberPortal/Data/content/MyHealthRecord/Allergies/en.json
