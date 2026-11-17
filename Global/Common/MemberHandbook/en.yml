@@ -1,0 +1,14 @@
+id: MyResources-Documents-Gl-Cm-MemberHandbook
+name: MyResources-Documents-Gl-Cm-MemberHandbook
+displayName: Member Handbook
+componentName: MyResources-Document
+fields:
+  documentTitle: Member Handbook
+  documentDescription: "Comprehensive guide containing plan details, member rights, responsibilities, and how to use your health plan benefits."
+  documentLink:
+    href: "[DOCUMENT_URL]"
+    target: _blank
+    text: Member Handbook
+  isDoc: false
+  excludePlanIds: ""
+  docName: Member Handbook

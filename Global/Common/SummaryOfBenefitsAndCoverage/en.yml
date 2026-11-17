@@ -1,0 +1,14 @@
+id: MyResources-Documents-Gl-Cm-SummaryOfBenefitsAndCoverage
+name: MyResources-Documents-Gl-Cm-SummaryOfBenefitsAndCoverage
+displayName: Summary of Benefits and Coverage
+componentName: MyResources-Document
+fields:
+  documentTitle: Summary of Benefits and Coverage
+  documentDescription: "A short document that shows your health plan's costs, coverage, and other important information. Used to compare health plans."
+  documentLink:
+    href: "[DOCUMENT_URL]"
+    target: _blank
+    text: Summary of Benefits and Coverage
+  isDoc: false
+  excludePlanIds: ""
+  docName: SBC

@@ -1,0 +1,14 @@
+id: MyResources-Documents-Gl-Cm-ScheduleOfBenefits
+name: MyResources-Documents-Gl-Cm-ScheduleOfBenefits
+displayName: Schedule of Benefits
+componentName: MyResources-Document
+fields:
+  documentTitle: Schedule of Benefits
+  documentDescription: "Detailed schedule showing covered services, copays, coinsurance percentages, and deductible information for your plan."
+  documentLink:
+    href: "[DOCUMENT_URL]"
+    target: _blank
+    text: Schedule of Benefits
+  isDoc: false
+  excludePlanIds: ""
+  docName: SOB

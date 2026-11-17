@@ -1,0 +1,14 @@
+id: MyResources-Documents-Gl-Cm-Agreement
+name: MyResources-Documents-Gl-Cm-Agreement
+displayName: Agreement
+componentName: MyResources-Document
+fields:
+  documentTitle: Agreement
+  documentDescription: "A document that describes the benefits, limitations and exclusions of coverage provided by an insurance company. It is also called the 'State Specific EOC language'."
+  documentLink:
+    href: "[DOCUMENT_URL]"
+    target: _blank
+    text: Agreement
+  isDoc: false
+  excludePlanIds: ""
+  docName: EOC
